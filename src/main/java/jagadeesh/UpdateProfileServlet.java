@@ -58,7 +58,7 @@ public class UpdateProfileServlet extends HttpServlet {
             }
 
         } catch (SQLException e) {
-            e.printStackTrace(); 
+            e.printStackTrace();
             return false;
         } catch (ClassNotFoundException e) {
             throw new RuntimeException(e);
